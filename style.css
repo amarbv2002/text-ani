@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: bold;
+  background-color: #222;
+}
+
+nav {
+  /* background-color: aquamarine; */
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.logo {
+  letter-spacing: 1.6px;
+  overflow: hidden;
+}
+
+.slider {
+  margin: 0 auto;
+  height: 80vh;
+  width: 85vw;
+  background-image: url("./hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* border-radius: 30px; */
+  display: flex;
+  /* text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 20px; */
+  justify-content: center;
+  align-items: center;
+}
+
+.slider h1 {
+  font-weight: bolder;
+  overflow: hidden;
+  text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
+  display: flex;
+}
+
+.slider span {
+  display: block;
+  margin: 0px 0.28rem;
+}
+
+.slider button {
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
+  border-radius: 7px;
+}
+
+.slider button:hover {
+  background-color: #222 !important;
+  color: white;
+}
